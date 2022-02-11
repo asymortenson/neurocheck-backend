@@ -1,0 +1,10 @@
+-- CREATE TABLE IF NOT EXISTS comments (
+--     id bigserial PRIMARY KEY,
+--     toxicity_scale integer NOT NULL,
+--     atmosphere integer NOT NULL,
+--     count integer NOT NULL,
+--     created_at timestamp(0) with time zone NOT NULL DEFAULT now(),
+--     user_id bigint NOT NULL REFERENCES users on DELETE CASCADE,
+--     items jsonb NOT NULL,
+--     version integer NOT NULL DEFAULT 1
+-- )
